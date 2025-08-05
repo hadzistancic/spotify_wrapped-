@@ -44,7 +44,8 @@ router.get("/callback", async (req, res) => {
         "Content-Type": "application/x-www-form-urlencoded",
       },
     });
-    res.json(response.data);
+    const { access_token } = response.data;
+    res.redirect(`http://localhost:5173/callback?access_token=${access_token}`);
   } catch (err) {
     console.error("Token exchange failed:", err);
     res.status(500).json({ error: "Token exchange failed" });
