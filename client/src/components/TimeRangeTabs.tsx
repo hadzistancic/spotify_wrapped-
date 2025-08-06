@@ -1,5 +1,5 @@
 import React from "react";
-import { Tabs, Tab, Typography } from "@mui/material";
+import { Tabs, Tab, Typography, useTheme } from "@mui/material";
 
 const TIME_RANGES = [
   { value: "short_term", label: "Last 4 Weeks" },
@@ -17,12 +17,27 @@ const TimeRangeTabs = ({ value, onChange }: TimeRangeTabsProps) => {
     onChange(newValue);
   };
 
+  const theme = useTheme();
+
   return (
     <>
-      <Typography variant="h2" align="center" sx={{ mb: 4 }}>
+      <Typography
+        variant="h2"
+        align="center"
+        sx={{ mb: 4, color: theme.palette.text.primary }}
+      >
         Welcome to your Spotify statistic
       </Typography>
-      <Tabs value={value} onChange={handleChange} centered sx={{ mb: 8 }}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        centered
+        sx={{
+          mb: 8,
+          backgroundColor: theme.palette.background.paper,
+          color: theme.palette.text.primary,
+        }}
+      >
         {TIME_RANGES.map(({ value, label }) => (
           <Tab key={value} label={label} value={value} />
         ))}

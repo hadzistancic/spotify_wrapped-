@@ -10,7 +10,12 @@ import TopArtistsList from "../components/TopArtists";
 import TopTracksList from "../components/TopTracks";
 import LinearProgress from "@mui/material/LinearProgress";
 
-const Dashboard = () => {
+type Props = {
+  toggleTheme: () => void;
+  mode: "light" | "dark";
+};
+
+const Dashboard = ({ toggleTheme, mode }: Props) => {
   const [timeRange, setTimeRange] = useState("medium_term");
 
   const { isAuthenticated, logout } = useAuth();
@@ -44,7 +49,7 @@ const Dashboard = () => {
 
   return (
     <Container>
-      <Header user={user} />
+      <Header user={user} toggleTheme={toggleTheme} mode={mode} />
       <TimeRangeTabs value={timeRange} onChange={setTimeRange} />
 
       <Grid container spacing={2} alignItems="stretch" sx={{ width: "100%" }}>
