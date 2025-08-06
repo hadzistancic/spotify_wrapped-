@@ -27,7 +27,7 @@ const Login = () => {
       minHeight="100vh"
       flexDirection="column"
     >
-      <Typography variant="h3">Welcome to Wrappedify</Typography>
+      <Typography variant="h3">Welcome to SpotStat</Typography>
       <Typography variant="subtitle1" gutterBottom>
         View your top artists and tracks from Spotify
       </Typography>
