@@ -8,7 +8,7 @@ This app is a simplified version of Spotify Wrapped. It lets users log in with t
 
 ## Why is this data interesting or valuable?
 
-Spotify Wrapped is popular because it turns personal listening data into insights and stories. It lets users reflect on their musical tastes, discover favorite artists and songs, and share their “musical year” with friends.
+Spotify Wrapped lets users reflect on their musical tastes, discover favorite artists and songs, and share their “musical year” with friends.
 
 ## This app uses
 
@@ -18,6 +18,7 @@ Spotify Wrapped is popular because it turns personal listening data into insight
 - **Vite**
 - **Axios**
 - **Clear folder and code organization**
+- **Light and dark theme**
 
 ---
 
