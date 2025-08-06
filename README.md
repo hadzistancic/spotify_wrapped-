@@ -1,8 +1,8 @@
-# Spotify Wrapped Clone
+# SpotStat - Spotify Wrapped Clone
 
 ## About the App
 
-This app is a simplified version of Spotify Wrapped. It lets users log in with their Spotify account and view personalized stats such as their top artists and top tracks over different time ranges (short, medium, long term). The dashboard displays this data in an easy to navigate and visually clean interface using Material UI.
+SpotStat is a simplified version of Spotify Wrapped. It lets users log in with their Spotify account and view personalized stats such as their top artists and top tracks over different time ranges (short, medium, long term). The dashboard displays this data in an easy to navigate and visually clean interface using Material UI.
 
 ---
 

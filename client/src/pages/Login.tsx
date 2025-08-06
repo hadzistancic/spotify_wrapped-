@@ -7,8 +7,10 @@ const Login = () => {
   const { getToken } = useAuth();
   const navigate = useNavigate();
 
+  const LOGIN_URL = `${import.meta.env.VITE_BACKEND_URL}/auth/login`;
+
   const handleLogin = () => {
-    window.location.href = "http://localhost:3001/auth/login";
+    window.location.href = LOGIN_URL;
   };
 
   const token = getToken();

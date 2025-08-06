@@ -1,4 +1,4 @@
-import { Box, Typography, Button, Container } from "@mui/material";
+import { Box, Typography, Container } from "@mui/material";
 import ConstructionIcon from "@mui/icons-material/Construction";
 export default function ErrorPage() {
   return (

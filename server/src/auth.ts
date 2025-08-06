@@ -45,9 +45,11 @@ router.get("/callback", async (req, res) => {
       },
     });
     const { access_token } = response.data;
-    res.redirect(`http://localhost:5173/callback?access_token=${access_token}`);
+    res.redirect(
+      `${process.env.FRONTEND_URL}/callback?access_token=${access_token}`
+    );
   } catch (err) {
-    res.redirect(`http://localhost:5173/500`);
+    res.redirect(`${process.env.FRONTEND_URL}/500`);
   }
 });
 
