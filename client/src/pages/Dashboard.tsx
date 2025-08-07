@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Grid, Divider } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import { useGetArtists } from "../data-access/queries/useGetArtists";
 import { useGetUser } from "../data-access/queries/useUser";
 import { useGetTracks } from "../data-access/queries/useGetTracks";
