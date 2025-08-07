@@ -26,7 +26,7 @@ Spotify Wrapped lets users reflect on their musical tastes, discover favorite ar
 
 ### Prerequisites
 
-- Node.js (v16+ recommended)
+- Node.js (v23.11.0 recommended)
 - npm or yarn
 - A Spotify Developer account and app with Client ID and Client Secret
 
