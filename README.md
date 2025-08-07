@@ -1,4 +1,4 @@
-# SpotStat - Spotify Wrapped Clone
+# [SpotStat](https://spotify-wrapped-1-85ay.onrender.com/) - Spotify Wrapped Clone
 
 ## About the App
 
@@ -26,7 +26,7 @@ Spotify Wrapped lets users reflect on their musical tastes, discover favorite ar
 
 ### Prerequisites
 
-- Node.js (v16+ recommended)
+- Node.js (v23.11.0 recommended)
 - npm or yarn
 - A Spotify Developer account and app with Client ID and Client Secret
 
@@ -69,3 +69,5 @@ Spotify Wrapped lets users reflect on their musical tastes, discover favorite ar
 4. Explore your Top Artists and Top Tracks displayed side by side.
 5. Use the time range tabs above to toggle between short term, medium term, and long term stats.
 6. Use the Logout button in the header to end your session.
+
+[Live app preview](https://spotify-wrapped-1-85ay.onrender.com/)
